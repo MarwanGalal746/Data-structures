@@ -103,19 +103,79 @@ CMakeFiles/Data_structures.dir/BTree/BTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Data_structures.dir/BTree/BTree.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marwan/CLionProjects/Data structures/BTree/BTree.cpp" -o CMakeFiles/Data_structures.dir/BTree/BTree.cpp.s
 
+CMakeFiles/Data_structures.dir/suffixTrie/suffixTrie.cpp.o: CMakeFiles/Data_structures.dir/flags.make
+CMakeFiles/Data_structures.dir/suffixTrie/suffixTrie.cpp.o: ../suffixTrie/suffixTrie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marwan/CLionProjects/Data structures/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Data_structures.dir/suffixTrie/suffixTrie.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Data_structures.dir/suffixTrie/suffixTrie.cpp.o -c "/home/marwan/CLionProjects/Data structures/suffixTrie/suffixTrie.cpp"
+
+CMakeFiles/Data_structures.dir/suffixTrie/suffixTrie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Data_structures.dir/suffixTrie/suffixTrie.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marwan/CLionProjects/Data structures/suffixTrie/suffixTrie.cpp" > CMakeFiles/Data_structures.dir/suffixTrie/suffixTrie.cpp.i
+
+CMakeFiles/Data_structures.dir/suffixTrie/suffixTrie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Data_structures.dir/suffixTrie/suffixTrie.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marwan/CLionProjects/Data structures/suffixTrie/suffixTrie.cpp" -o CMakeFiles/Data_structures.dir/suffixTrie/suffixTrie.cpp.s
+
+CMakeFiles/Data_structures.dir/suffixTrie/Node.cpp.o: CMakeFiles/Data_structures.dir/flags.make
+CMakeFiles/Data_structures.dir/suffixTrie/Node.cpp.o: ../suffixTrie/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marwan/CLionProjects/Data structures/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Data_structures.dir/suffixTrie/Node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Data_structures.dir/suffixTrie/Node.cpp.o -c "/home/marwan/CLionProjects/Data structures/suffixTrie/Node.cpp"
+
+CMakeFiles/Data_structures.dir/suffixTrie/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Data_structures.dir/suffixTrie/Node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marwan/CLionProjects/Data structures/suffixTrie/Node.cpp" > CMakeFiles/Data_structures.dir/suffixTrie/Node.cpp.i
+
+CMakeFiles/Data_structures.dir/suffixTrie/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Data_structures.dir/suffixTrie/Node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marwan/CLionProjects/Data structures/suffixTrie/Node.cpp" -o CMakeFiles/Data_structures.dir/suffixTrie/Node.cpp.s
+
+CMakeFiles/Data_structures.dir/suffixTrie/TrieNode.cpp.o: CMakeFiles/Data_structures.dir/flags.make
+CMakeFiles/Data_structures.dir/suffixTrie/TrieNode.cpp.o: ../suffixTrie/TrieNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marwan/CLionProjects/Data structures/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Data_structures.dir/suffixTrie/TrieNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Data_structures.dir/suffixTrie/TrieNode.cpp.o -c "/home/marwan/CLionProjects/Data structures/suffixTrie/TrieNode.cpp"
+
+CMakeFiles/Data_structures.dir/suffixTrie/TrieNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Data_structures.dir/suffixTrie/TrieNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marwan/CLionProjects/Data structures/suffixTrie/TrieNode.cpp" > CMakeFiles/Data_structures.dir/suffixTrie/TrieNode.cpp.i
+
+CMakeFiles/Data_structures.dir/suffixTrie/TrieNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Data_structures.dir/suffixTrie/TrieNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marwan/CLionProjects/Data structures/suffixTrie/TrieNode.cpp" -o CMakeFiles/Data_structures.dir/suffixTrie/TrieNode.cpp.s
+
+CMakeFiles/Data_structures.dir/suffixTrie/list.cpp.o: CMakeFiles/Data_structures.dir/flags.make
+CMakeFiles/Data_structures.dir/suffixTrie/list.cpp.o: ../suffixTrie/list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marwan/CLionProjects/Data structures/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Data_structures.dir/suffixTrie/list.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Data_structures.dir/suffixTrie/list.cpp.o -c "/home/marwan/CLionProjects/Data structures/suffixTrie/list.cpp"
+
+CMakeFiles/Data_structures.dir/suffixTrie/list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Data_structures.dir/suffixTrie/list.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marwan/CLionProjects/Data structures/suffixTrie/list.cpp" > CMakeFiles/Data_structures.dir/suffixTrie/list.cpp.i
+
+CMakeFiles/Data_structures.dir/suffixTrie/list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Data_structures.dir/suffixTrie/list.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marwan/CLionProjects/Data structures/suffixTrie/list.cpp" -o CMakeFiles/Data_structures.dir/suffixTrie/list.cpp.s
+
 # Object files for target Data_structures
 Data_structures_OBJECTS = \
 "CMakeFiles/Data_structures.dir/main.cpp.o" \
-"CMakeFiles/Data_structures.dir/BTree/BTree.cpp.o"
+"CMakeFiles/Data_structures.dir/BTree/BTree.cpp.o" \
+"CMakeFiles/Data_structures.dir/suffixTrie/suffixTrie.cpp.o" \
+"CMakeFiles/Data_structures.dir/suffixTrie/Node.cpp.o" \
+"CMakeFiles/Data_structures.dir/suffixTrie/TrieNode.cpp.o" \
+"CMakeFiles/Data_structures.dir/suffixTrie/list.cpp.o"
 
 # External object files for target Data_structures
 Data_structures_EXTERNAL_OBJECTS =
 
 Data_structures: CMakeFiles/Data_structures.dir/main.cpp.o
 Data_structures: CMakeFiles/Data_structures.dir/BTree/BTree.cpp.o
+Data_structures: CMakeFiles/Data_structures.dir/suffixTrie/suffixTrie.cpp.o
+Data_structures: CMakeFiles/Data_structures.dir/suffixTrie/Node.cpp.o
+Data_structures: CMakeFiles/Data_structures.dir/suffixTrie/TrieNode.cpp.o
+Data_structures: CMakeFiles/Data_structures.dir/suffixTrie/list.cpp.o
 Data_structures: CMakeFiles/Data_structures.dir/build.make
 Data_structures: CMakeFiles/Data_structures.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/marwan/CLionProjects/Data structures/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Data_structures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/marwan/CLionProjects/Data structures/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Data_structures"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Data_structures.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

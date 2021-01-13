@@ -93,6 +93,30 @@
 		<Unit filename="/home/marwan/CLionProjects/Data structures/main.cpp">
 			<Option target="Data_structures"/>
 		</Unit>
+		<Unit filename="/home/marwan/CLionProjects/Data structures/suffixTrie/Node.cpp">
+			<Option target="Data_structures"/>
+		</Unit>
+		<Unit filename="/home/marwan/CLionProjects/Data structures/suffixTrie/Node.h">
+			<Option target="Data_structures"/>
+		</Unit>
+		<Unit filename="/home/marwan/CLionProjects/Data structures/suffixTrie/TrieNode.cpp">
+			<Option target="Data_structures"/>
+		</Unit>
+		<Unit filename="/home/marwan/CLionProjects/Data structures/suffixTrie/TrieNode.h">
+			<Option target="Data_structures"/>
+		</Unit>
+		<Unit filename="/home/marwan/CLionProjects/Data structures/suffixTrie/list.cpp">
+			<Option target="Data_structures"/>
+		</Unit>
+		<Unit filename="/home/marwan/CLionProjects/Data structures/suffixTrie/list.h">
+			<Option target="Data_structures"/>
+		</Unit>
+		<Unit filename="/home/marwan/CLionProjects/Data structures/suffixTrie/suffixTrie.cpp">
+			<Option target="Data_structures"/>
+		</Unit>
+		<Unit filename="/home/marwan/CLionProjects/Data structures/suffixTrie/suffixTrie.h">
+			<Option target="Data_structures"/>
+		</Unit>
 		<Unit filename="/home/marwan/CLionProjects/Data structures/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

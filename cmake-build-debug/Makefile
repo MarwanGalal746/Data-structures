@@ -197,6 +197,114 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+suffixTrie/Node.o: suffixTrie/Node.cpp.o
+
+.PHONY : suffixTrie/Node.o
+
+# target to build an object file
+suffixTrie/Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/suffixTrie/Node.cpp.o
+.PHONY : suffixTrie/Node.cpp.o
+
+suffixTrie/Node.i: suffixTrie/Node.cpp.i
+
+.PHONY : suffixTrie/Node.i
+
+# target to preprocess a source file
+suffixTrie/Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/suffixTrie/Node.cpp.i
+.PHONY : suffixTrie/Node.cpp.i
+
+suffixTrie/Node.s: suffixTrie/Node.cpp.s
+
+.PHONY : suffixTrie/Node.s
+
+# target to generate assembly for a file
+suffixTrie/Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/suffixTrie/Node.cpp.s
+.PHONY : suffixTrie/Node.cpp.s
+
+suffixTrie/TrieNode.o: suffixTrie/TrieNode.cpp.o
+
+.PHONY : suffixTrie/TrieNode.o
+
+# target to build an object file
+suffixTrie/TrieNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/suffixTrie/TrieNode.cpp.o
+.PHONY : suffixTrie/TrieNode.cpp.o
+
+suffixTrie/TrieNode.i: suffixTrie/TrieNode.cpp.i
+
+.PHONY : suffixTrie/TrieNode.i
+
+# target to preprocess a source file
+suffixTrie/TrieNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/suffixTrie/TrieNode.cpp.i
+.PHONY : suffixTrie/TrieNode.cpp.i
+
+suffixTrie/TrieNode.s: suffixTrie/TrieNode.cpp.s
+
+.PHONY : suffixTrie/TrieNode.s
+
+# target to generate assembly for a file
+suffixTrie/TrieNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/suffixTrie/TrieNode.cpp.s
+.PHONY : suffixTrie/TrieNode.cpp.s
+
+suffixTrie/list.o: suffixTrie/list.cpp.o
+
+.PHONY : suffixTrie/list.o
+
+# target to build an object file
+suffixTrie/list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/suffixTrie/list.cpp.o
+.PHONY : suffixTrie/list.cpp.o
+
+suffixTrie/list.i: suffixTrie/list.cpp.i
+
+.PHONY : suffixTrie/list.i
+
+# target to preprocess a source file
+suffixTrie/list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/suffixTrie/list.cpp.i
+.PHONY : suffixTrie/list.cpp.i
+
+suffixTrie/list.s: suffixTrie/list.cpp.s
+
+.PHONY : suffixTrie/list.s
+
+# target to generate assembly for a file
+suffixTrie/list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/suffixTrie/list.cpp.s
+.PHONY : suffixTrie/list.cpp.s
+
+suffixTrie/suffixTrie.o: suffixTrie/suffixTrie.cpp.o
+
+.PHONY : suffixTrie/suffixTrie.o
+
+# target to build an object file
+suffixTrie/suffixTrie.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/suffixTrie/suffixTrie.cpp.o
+.PHONY : suffixTrie/suffixTrie.cpp.o
+
+suffixTrie/suffixTrie.i: suffixTrie/suffixTrie.cpp.i
+
+.PHONY : suffixTrie/suffixTrie.i
+
+# target to preprocess a source file
+suffixTrie/suffixTrie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/suffixTrie/suffixTrie.cpp.i
+.PHONY : suffixTrie/suffixTrie.cpp.i
+
+suffixTrie/suffixTrie.s: suffixTrie/suffixTrie.cpp.s
+
+.PHONY : suffixTrie/suffixTrie.s
+
+# target to generate assembly for a file
+suffixTrie/suffixTrie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/suffixTrie/suffixTrie.cpp.s
+.PHONY : suffixTrie/suffixTrie.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +320,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... suffixTrie/Node.o"
+	@echo "... suffixTrie/Node.i"
+	@echo "... suffixTrie/Node.s"
+	@echo "... suffixTrie/TrieNode.o"
+	@echo "... suffixTrie/TrieNode.i"
+	@echo "... suffixTrie/TrieNode.s"
+	@echo "... suffixTrie/list.o"
+	@echo "... suffixTrie/list.i"
+	@echo "... suffixTrie/list.s"
+	@echo "... suffixTrie/suffixTrie.o"
+	@echo "... suffixTrie/suffixTrie.i"
+	@echo "... suffixTrie/suffixTrie.s"
 .PHONY : help
 
 

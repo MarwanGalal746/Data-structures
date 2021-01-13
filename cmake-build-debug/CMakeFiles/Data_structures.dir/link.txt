@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Data_structures.dir/main.cpp.o CMakeFiles/Data_structures.dir/BTree/BTree.cpp.o  -o Data_structures 
+/usr/bin/c++  -g   CMakeFiles/Data_structures.dir/main.cpp.o CMakeFiles/Data_structures.dir/BTree/BTree.cpp.o CMakeFiles/Data_structures.dir/suffixTrie/suffixTrie.cpp.o CMakeFiles/Data_structures.dir/suffixTrie/Node.cpp.o CMakeFiles/Data_structures.dir/suffixTrie/TrieNode.cpp.o CMakeFiles/Data_structures.dir/suffixTrie/list.cpp.o  -o Data_structures 
