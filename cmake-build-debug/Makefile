@@ -68,10 +68,10 @@ RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/marwan/CLionProjects/Data structures"
+CMAKE_SOURCE_DIR = /home/marwan/CLionProjects/Data-structures
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/marwan/CLionProjects/Data structures/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/marwan/CLionProjects/Data-structures/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/marwan/CLionProjects/Data structures/cmake-build-debug/CMakeFiles" "/home/marwan/CLionProjects/Data structures/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marwan/CLionProjects/Data-structures/cmake-build-debug/CMakeFiles /home/marwan/CLionProjects/Data-structures/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/marwan/CLionProjects/Data structures/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marwan/CLionProjects/Data-structures/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -169,6 +169,87 @@ BTree/BTree.s: BTree/BTree.cpp.s
 BTree/BTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/BTree/BTree.cpp.s
 .PHONY : BTree/BTree.cpp.s
+
+BinaryTree/AVL.o: BinaryTree/AVL.cpp.o
+
+.PHONY : BinaryTree/AVL.o
+
+# target to build an object file
+BinaryTree/AVL.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/BinaryTree/AVL.cpp.o
+.PHONY : BinaryTree/AVL.cpp.o
+
+BinaryTree/AVL.i: BinaryTree/AVL.cpp.i
+
+.PHONY : BinaryTree/AVL.i
+
+# target to preprocess a source file
+BinaryTree/AVL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/BinaryTree/AVL.cpp.i
+.PHONY : BinaryTree/AVL.cpp.i
+
+BinaryTree/AVL.s: BinaryTree/AVL.cpp.s
+
+.PHONY : BinaryTree/AVL.s
+
+# target to generate assembly for a file
+BinaryTree/AVL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/BinaryTree/AVL.cpp.s
+.PHONY : BinaryTree/AVL.cpp.s
+
+BinaryTree/BST.o: BinaryTree/BST.cpp.o
+
+.PHONY : BinaryTree/BST.o
+
+# target to build an object file
+BinaryTree/BST.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/BinaryTree/BST.cpp.o
+.PHONY : BinaryTree/BST.cpp.o
+
+BinaryTree/BST.i: BinaryTree/BST.cpp.i
+
+.PHONY : BinaryTree/BST.i
+
+# target to preprocess a source file
+BinaryTree/BST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/BinaryTree/BST.cpp.i
+.PHONY : BinaryTree/BST.cpp.i
+
+BinaryTree/BST.s: BinaryTree/BST.cpp.s
+
+.PHONY : BinaryTree/BST.s
+
+# target to generate assembly for a file
+BinaryTree/BST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/BinaryTree/BST.cpp.s
+.PHONY : BinaryTree/BST.cpp.s
+
+BinaryTree/binaryTree.o: BinaryTree/binaryTree.cpp.o
+
+.PHONY : BinaryTree/binaryTree.o
+
+# target to build an object file
+BinaryTree/binaryTree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/BinaryTree/binaryTree.cpp.o
+.PHONY : BinaryTree/binaryTree.cpp.o
+
+BinaryTree/binaryTree.i: BinaryTree/binaryTree.cpp.i
+
+.PHONY : BinaryTree/binaryTree.i
+
+# target to preprocess a source file
+BinaryTree/binaryTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/BinaryTree/binaryTree.cpp.i
+.PHONY : BinaryTree/binaryTree.cpp.i
+
+BinaryTree/binaryTree.s: BinaryTree/binaryTree.cpp.s
+
+.PHONY : BinaryTree/binaryTree.s
+
+# target to generate assembly for a file
+BinaryTree/binaryTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/BinaryTree/binaryTree.cpp.s
+.PHONY : BinaryTree/binaryTree.cpp.s
 
 main.o: main.cpp.o
 
@@ -317,6 +398,15 @@ help:
 	@echo "... BTree/BTree.o"
 	@echo "... BTree/BTree.i"
 	@echo "... BTree/BTree.s"
+	@echo "... BinaryTree/AVL.o"
+	@echo "... BinaryTree/AVL.i"
+	@echo "... BinaryTree/AVL.s"
+	@echo "... BinaryTree/BST.o"
+	@echo "... BinaryTree/BST.i"
+	@echo "... BinaryTree/BST.s"
+	@echo "... BinaryTree/binaryTree.o"
+	@echo "... BinaryTree/binaryTree.i"
+	@echo "... BinaryTree/binaryTree.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

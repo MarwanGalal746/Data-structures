@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Data_structures.dir/BTree/BTree.cpp.o"
+  "CMakeFiles/Data_structures.dir/BinaryTree/AVL.cpp.o"
+  "CMakeFiles/Data_structures.dir/BinaryTree/BST.cpp.o"
+  "CMakeFiles/Data_structures.dir/BinaryTree/binaryTree.cpp.o"
   "CMakeFiles/Data_structures.dir/main.cpp.o"
   "CMakeFiles/Data_structures.dir/suffixTrie/Node.cpp.o"
   "CMakeFiles/Data_structures.dir/suffixTrie/TrieNode.cpp.o"
