@@ -251,6 +251,60 @@ BinaryTree/binaryTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/BinaryTree/binaryTree.cpp.s
 .PHONY : BinaryTree/binaryTree.cpp.s
 
+Graph/graphType.o: Graph/graphType.cpp.o
+
+.PHONY : Graph/graphType.o
+
+# target to build an object file
+Graph/graphType.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/Graph/graphType.cpp.o
+.PHONY : Graph/graphType.cpp.o
+
+Graph/graphType.i: Graph/graphType.cpp.i
+
+.PHONY : Graph/graphType.i
+
+# target to preprocess a source file
+Graph/graphType.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/Graph/graphType.cpp.i
+.PHONY : Graph/graphType.cpp.i
+
+Graph/graphType.s: Graph/graphType.cpp.s
+
+.PHONY : Graph/graphType.s
+
+# target to generate assembly for a file
+Graph/graphType.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/Graph/graphType.cpp.s
+.PHONY : Graph/graphType.cpp.s
+
+Graph/toplogical.o: Graph/toplogical.cpp.o
+
+.PHONY : Graph/toplogical.o
+
+# target to build an object file
+Graph/toplogical.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/Graph/toplogical.cpp.o
+.PHONY : Graph/toplogical.cpp.o
+
+Graph/toplogical.i: Graph/toplogical.cpp.i
+
+.PHONY : Graph/toplogical.i
+
+# target to preprocess a source file
+Graph/toplogical.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/Graph/toplogical.cpp.i
+.PHONY : Graph/toplogical.cpp.i
+
+Graph/toplogical.s: Graph/toplogical.cpp.s
+
+.PHONY : Graph/toplogical.s
+
+# target to generate assembly for a file
+Graph/toplogical.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/Graph/toplogical.cpp.s
+.PHONY : Graph/toplogical.cpp.s
+
 linkedList/list.o: linkedList/list.cpp.o
 
 .PHONY : linkedList/list.o
@@ -434,6 +488,12 @@ help:
 	@echo "... BinaryTree/binaryTree.o"
 	@echo "... BinaryTree/binaryTree.i"
 	@echo "... BinaryTree/binaryTree.s"
+	@echo "... Graph/graphType.o"
+	@echo "... Graph/graphType.i"
+	@echo "... Graph/graphType.s"
+	@echo "... Graph/toplogical.o"
+	@echo "... Graph/toplogical.i"
+	@echo "... Graph/toplogical.s"
 	@echo "... linkedList/list.o"
 	@echo "... linkedList/list.i"
 	@echo "... linkedList/list.s"

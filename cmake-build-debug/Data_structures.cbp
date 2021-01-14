@@ -108,6 +108,18 @@
 		<Unit filename="/home/marwan/CLionProjects/Data-structures/BinaryTree/binaryTree.h">
 			<Option target="Data_structures"/>
 		</Unit>
+		<Unit filename="/home/marwan/CLionProjects/Data-structures/Graph/graphType.cpp">
+			<Option target="Data_structures"/>
+		</Unit>
+		<Unit filename="/home/marwan/CLionProjects/Data-structures/Graph/graphType.h">
+			<Option target="Data_structures"/>
+		</Unit>
+		<Unit filename="/home/marwan/CLionProjects/Data-structures/Graph/toplogical.cpp">
+			<Option target="Data_structures"/>
+		</Unit>
+		<Unit filename="/home/marwan/CLionProjects/Data-structures/Graph/toplogical.h">
+			<Option target="Data_structures"/>
+		</Unit>
 		<Unit filename="/home/marwan/CLionProjects/Data-structures/linkedList/list.cpp">
 			<Option target="Data_structures"/>
 		</Unit>
