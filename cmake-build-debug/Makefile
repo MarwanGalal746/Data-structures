@@ -251,6 +251,33 @@ BinaryTree/binaryTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/BinaryTree/binaryTree.cpp.s
 .PHONY : BinaryTree/binaryTree.cpp.s
 
+linkedList/list.o: linkedList/list.cpp.o
+
+.PHONY : linkedList/list.o
+
+# target to build an object file
+linkedList/list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/linkedList/list.cpp.o
+.PHONY : linkedList/list.cpp.o
+
+linkedList/list.i: linkedList/list.cpp.i
+
+.PHONY : linkedList/list.i
+
+# target to preprocess a source file
+linkedList/list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/linkedList/list.cpp.i
+.PHONY : linkedList/list.cpp.i
+
+linkedList/list.s: linkedList/list.cpp.s
+
+.PHONY : linkedList/list.s
+
+# target to generate assembly for a file
+linkedList/list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Data_structures.dir/build.make CMakeFiles/Data_structures.dir/linkedList/list.cpp.s
+.PHONY : linkedList/list.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -407,6 +434,9 @@ help:
 	@echo "... BinaryTree/binaryTree.o"
 	@echo "... BinaryTree/binaryTree.i"
 	@echo "... BinaryTree/binaryTree.s"
+	@echo "... linkedList/list.o"
+	@echo "... linkedList/list.i"
+	@echo "... linkedList/list.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

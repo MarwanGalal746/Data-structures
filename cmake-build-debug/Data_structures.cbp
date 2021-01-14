@@ -108,6 +108,12 @@
 		<Unit filename="/home/marwan/CLionProjects/Data-structures/BinaryTree/binaryTree.h">
 			<Option target="Data_structures"/>
 		</Unit>
+		<Unit filename="/home/marwan/CLionProjects/Data-structures/linkedList/list.cpp">
+			<Option target="Data_structures"/>
+		</Unit>
+		<Unit filename="/home/marwan/CLionProjects/Data-structures/linkedList/list.h">
+			<Option target="Data_structures"/>
+		</Unit>
 		<Unit filename="/home/marwan/CLionProjects/Data-structures/main.cpp">
 			<Option target="Data_structures"/>
 		</Unit>
